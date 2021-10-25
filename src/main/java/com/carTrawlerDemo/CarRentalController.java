@@ -11,7 +11,7 @@ public class CarRentalController {
 
     public static void getCarRentalObject() throws IOException, ParseException {
 
-        CarRetalModel carRentalModelObj = new CarRentalModel();
+       // CarRetalModel carRentalModelObj = new CarRentalModel();
 
         JSONObject response = Utils.Get_Response("jsonPath");
 
