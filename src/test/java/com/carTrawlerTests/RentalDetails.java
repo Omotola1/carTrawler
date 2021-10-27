@@ -20,7 +20,7 @@ public class RentalDetails {
         JSONObject jsonObject = (JSONObject) obj;
 
 
-        JSONArray array = (JSONArray) jsonObject.get("$..TotalCharge");
+        JSONArray array = (JSONArray) jsonObject.get("Fees");
 
         for (int i = 0; i < array.size(); i++) {
 
@@ -28,7 +28,7 @@ public class RentalDetails {
 
             String fees = (String) TotalCharge.get("@RateTotalAmount");
 
-            System.out.println("fees");
+            System.out.println("Fees");
         }
     }
 }
